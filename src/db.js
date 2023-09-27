@@ -5,6 +5,7 @@ async function connection() {
     .connect(
       "mongodb+srv://tablonimus:1234@loginprotalentob9.27qa4ty.mongodb.net/?retryWrites=true&w=majority"
     )
+    .then(console.log("Base de datos Mongo conectada"))
     .catch((err) => console.log(err));
 }
 
