@@ -24,3 +24,21 @@ Mongo + Express + Node
 6- lo vinculan en db.js
 7- lo importan en una ruta(app.js)
 8- levantan el servidor `npm run dev`
+
+
+# Ejemplo para crear un usuario
+{
+  "username": "Lautaro",
+  "email": "lauta@gmail.com",
+  "identification_number": 123456,
+  "password": "123456789",
+  "phone_number": 2612593391,
+  "cats": [
+    "Roberto",
+    "Esteban"
+  ]
+}
+
+# Ejemplo para crear un gato
+
+http://localhost:3000/gatito?name=Juan
